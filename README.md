@@ -112,7 +112,7 @@ src/
 ## 📜 License
 
 This project is under the MIT License.
-2025 © QR Code Generator PRO S.L - "QR Code" is a trademark of DENSO WAVE INCORPORATED.
+2025 © QR Code Generator 
 
 ```
 

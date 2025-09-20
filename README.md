@@ -1,11 +1,3 @@
-Got it 👍
-Since you’ve connected **Navbar → Routes → Login / Signup / Home / Footer / Terms & Privacy**, I’ll prepare a clean **README.md** that explains your project setup so far.
-
----
-
-## 📄 README.md
-
-```markdown
 # QR Code Generator Web App (React)
 
 This is a **React-based web application** for a QR code generator with authentication and legal policy pages.  
@@ -109,14 +101,4 @@ src/
 
 ---
 
-## 📜 License
 
-This project is under the MIT License.
-2025 © QR Code Generator 
-
-```
-
----
-
-👉 Do you want me to also include **sample screenshots placeholders** in the README (like `![Homepage Preview](./assets/home.png)`), so later you can just drop images into `/assets`?
-```

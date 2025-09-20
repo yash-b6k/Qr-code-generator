@@ -1,20 +1,20 @@
 # QR Code Generator Web App (React)
 
 This is a **React-based web application** for a QR code generator with authentication and legal policy pages.  
-The project is modular, scalable, and built using **React Router** for navigation and Tailwind CSS (or CSS utility classes) for styling.
+The project is modular, scalable, and built using **React Router** for navigation and **Tailwind CSS** for styling.
 
 ---
 
 ## 🚀 Features Implemented (So Far)
 
 - **Routing (React Router v6)**
-  - Home Page (`/`)
-  - Login (`/login`)
-  - Signup (`/signup`)
-  - Terms & Conditions (`/terms`)
-  - Privacy Policy (`/privacy`)
-  - 404 Page (`*`)
-  
+  - `Home Page` → `/`
+  - `Login Page` → `/login`
+  - `Signup Page` → `/signup`
+  - `Terms & Conditions` → `/terms`
+  - `Privacy Policy` → `/privacy`
+  - `404 Page` → `*`
+
 - **Authentication Forms**
   - Separate **Login** and **Signup** components
   - Google Auth placeholder link for future integration
@@ -22,7 +22,7 @@ The project is modular, scalable, and built using **React Router** for navigatio
 - **Reusable Layout Components**
   - **Navbar** with navigation links
   - **Footer** with 4 columns (Product, Resources, Legal, Help)  
-    - Links: QR Code Generator, Plans, Blog, Support, Docs, FAQ, Terms, Privacy, Cookies Policy, Contact, etc.
+    - Links included: QR Code Generator, Plans, Blog, Support, Docs, FAQ, Terms, Privacy, Cookies Policy, Contact, etc.
 
 - **UI**
   - Responsive design (works on Desktop & Mobile)
@@ -33,8 +33,7 @@ The project is modular, scalable, and built using **React Router** for navigatio
 
 ## 📂 Project Structure
 
-```
-
+```text
 src/
 ├── components/
 │   ├── Navbar.jsx
@@ -51,54 +50,56 @@ src/
 ├── App.jsx
 ├── main.jsx
 
-````
 
----
+# 🛠️ Tech Stack
+- **Frontend:** React 18, React Router DOM  
+- **Styling:** Tailwind CSS (or plain CSS fallback)  
+- **Auth:** Google OAuth (planned integration)  
+- **Icons/Assets:** PNGs for social links  
 
-## 🛠️ Tech Stack
+# ⚙️ Setup Instructions
+1. **Clone the repository**
+git clone https://github.com/your-username/qr-code-app.git
+cd qr-code-app
 
-- **Frontend**: React 18, React Router DOM  
-- **Styling**: Tailwind CSS (or plain CSS for fallback)  
-- **Auth**: Google OAuth (planned integration)  
-- **Icons/Assets**: PNGs for social links  
+text
 
----
+2. **Install dependencies**
+npm install
 
-## ⚙️ Setup Instructions
+text
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/your-username/qr-code-app.git
-   cd qr-code-app
-````
+3. **Start the development server**
+npm run dev
 
-2. Install dependencies:
+text
 
-   ```bash
-   npm install
-   ```
+4. **Open in browser**  
+[http://localhost:5173/](http://localhost:5173/)
 
-3. Start development server:
+# 🔮 Next Steps (Planned)
 
-   ```bash
-   npm run dev
-   ```
+### QR Code Generator
+- Implement the main QR code generation functionality  
 
-4. Open browser at:
+### Authentication
+- Connect Google Auth & backend authentication  
 
-   ```
-   http://localhost:5173/
-   ```
+### Plans & Pricing
+- Add page for subscription plans  
+- Integrate payment functionality  
+- Option to cancel subscription  
 
----
+### UI Enhancements
+- Improve animations & gradient background effects  
+- Enhance the footer with dynamic social links  
 
-## 🔮 Next Steps (Planned)
-
-* Add actual **QR Code Generator** functionality
-* Connect **Google Auth** & backend authentication
-* Add **Plans & Pricing** page with payment integration
-* Improve animations & gradient background effects
-
----
-
-
+### Content Pages
+- About Us  
+- Blog  
+- Support  
+- Documentation  
+- FAQ  
+- Terms & Conditions  
+- Privacy Policy  
+- Cookies Policy  

@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+
+/* Only handle the background images */
+.ellipse-navbar {
+  position: absolute;
+  pointer-events: none;
+  width: 1108px;
+  height: 269px;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -10;
+}
+
+/* Desktop version */
+@media (min-width: 901px) {
+  .ellipse-navbar {
+    background-image: url('/assets/ellipse-navbar(Desktop).png');
+  }
+}
+
+
+
+
+

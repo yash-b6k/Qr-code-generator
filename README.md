@@ -1,7 +1,9 @@
-# QR Code Generator Web App (React)
+# 🚀 QR Code Generator Web App (React)
 
-This is a **React-based web application** for a QR code generator with authentication and legal policy pages.  
-The project is modular, scalable, and built using **React Router** for navigation and **Tailwind CSS** for styling.
+![Project Badge](https://img.shields.io/badge/React-18-blue) ![License](https://img.shields.io/badge/License-MIT-green) ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.3-blueviolet)
+
+A **React-based web application** for generating QR codes with authentication, legal policy pages, and a modular layout.  
+The project is designed to be scalable, with **React Router** for navigation and **Tailwind CSS** for styling.
 
 ---
 
